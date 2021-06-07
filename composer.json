@@ -1,0 +1,26 @@
+{
+    "name": "iroganov/otus-php-3",
+    "authors": [
+        {
+            "name": "Igor Roganov",
+            "email": "ip.roganov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-zip": "*",
+        "monolog/monolog": "*",
+        "symfony/yaml": "^5.0",
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IRoganov\\" : "src/IRoganov"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
