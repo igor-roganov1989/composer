@@ -6,7 +6,7 @@
             "email": "ip.roganov@gmail.com"
         }
     ],
-    
+    "version": "0.0.1",
     "minimum-stability":"stable",
     "require": {
         "php": ">=7.4",
