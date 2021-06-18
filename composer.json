@@ -6,6 +6,8 @@
             "email": "ip.roganov@gmail.com"
         }
     ],
+    
+    minimum-stability:"dev",
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
