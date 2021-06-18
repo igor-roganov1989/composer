@@ -7,7 +7,7 @@
         }
     ],
     
-    minimum-stability:"dev",
+    "minimum-stability":"dev",
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
