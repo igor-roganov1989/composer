@@ -9,10 +9,11 @@ class App
 	function __construct(){
 		
 		$this->request = new Request();
+
 		
 	}
-	public static function run(){
-	 $this-	
+	public function run(){
+        $this->request->init();
 	}
 	
 }

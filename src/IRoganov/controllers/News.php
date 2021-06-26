@@ -1,13 +1,11 @@
 <?
 namespace controllers;
 
-class News{
+class NewsController{
 	
 	public function actionGet(){
 		
-		$mUser = new User;
-		
-		$mUser->getUsers();
+		echo 'отображаем новости';
 		
 	
 	}
